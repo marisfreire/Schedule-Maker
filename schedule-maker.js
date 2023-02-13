@@ -5,16 +5,16 @@ function generateRandomIndex(){
     return matéria[i]
 }
 
-let scheduleEl = document.querySelector('p#schedule-el')
+ let scheduleEl = document.querySelector('p#schedule-el')
 scheduleEl.textContent = ""
 scheduleEl.style.display = "none";
-let quantidadeMateria = ""
+let quantidadeMateria = "" 
 
 function generateSchedule(){
     let materia1 = generateRandomIndex()
     let materia2 = generateRandomIndex()
     let materia3 = generateRandomIndex()
-
+    
     if ( materia1 != materia2 && materia1 != materia3 && materia2 != materia3){
         scheduleEl.style.display = "block";
         scheduleEl.textContent = `Hoje você estudará ${materia1}, ${materia2} e ${materia3}`
@@ -61,6 +61,19 @@ function generateSchedule(){
 
 }
 
+
+
+
+/* function qteDeMaterias(){
+    let i = 0
+    let materiaQte = prompt("Quantas matérias você quer estudar hoje?")
+    while (i < materiaQte){
+        let materiaEscolhida = generateRandomIndex()
+        i++
+        console.log(materiaEscolhida)
+    }
+    
+} */
 
 
 
