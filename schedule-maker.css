@@ -27,7 +27,7 @@ body{
 
 .button{
     max-width: 100%;
-    padding: 1.25em;
+    padding: 1em;
     margin-bottom: 30px;
     font-size: 16px;
     cursor: pointer;
@@ -37,7 +37,8 @@ body{
     border: none;
     box-shadow: 0px 5px 10px rgba(20, 104, 183, 0.445) ;
     color: rgb(255, 255, 255);
-    
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 10px;
     
     
@@ -54,9 +55,7 @@ p{
     text-align: center;
     color: #121114;
     text-decoration: underline;
-    background-color: rgba(255, 255, 255, 0.469);
-    padding: 10px;
-    width: 50%;
+    
     margin: 0 auto;
     
 }
